@@ -30,31 +30,25 @@ set(PLUGIN_SOURCES)
 set(PLUGIN_CU_SOURCES)
 
 set(PLUGIN_LISTS
-    batchedNMSPlugin
-    batchTilePlugin
-    coordConvACPlugin
-    cropAndResizePlugin
-    detectionLayerPlugin
-    flattenConcat
-    generateDetectionPlugin
-    gridAnchorPlugin
-    groupNormalizationPlugin
-    instanceNormalizationPlugin
-    leakyReluPlugin
-    multilevelCropAndResizePlugin
-    multilevelProposeROI
     nmsPlugin
     normalizePlugin
-    nvFasterRCNN
     priorBoxPlugin
-    proposalLayerPlugin
-    proposalPlugin
-    pyramidROIAlignPlugin
-    regionPlugin
     reorgPlugin
+    gridAnchorPlugin
+    regionPlugin
+    nvFasterRCNN
+    batchedNMSPlugin
+    flattenConcat
+    cropAndResizePlugin
+    proposalPlugin
+    batchTilePlugin
+    detectionLayerPlugin
+    proposalLayerPlugin
+    pyramidROIAlignPlugin
     resizeNearestPlugin
     specialSlicePlugin
-    splitPlugin
+    instanceNormalizationPlugin
+    gridSamplerPlugin
     )
 
 # Add BERT sources if ${BERT_GENCODES} was populated

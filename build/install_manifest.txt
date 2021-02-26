@@ -1,0 +1,3 @@
+/../lib/libnvinfer_plugin.so.7.2.2
+/../lib/libnvinfer_plugin.so.7
+/../lib/libnvinfer_plugin.so
